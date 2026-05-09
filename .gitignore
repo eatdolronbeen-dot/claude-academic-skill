@@ -1,0 +1,24 @@
+# User research data — these should never be committed
+memory/
+notes/papers/
+notes/learning/
+notes/topics/
+notes/research/
+papers/inbox/
+papers/sources/
+papers/extracted/
+papers/metadata/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Claude Code worktrees
+.claude/worktrees/
