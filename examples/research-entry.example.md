@@ -5,7 +5,7 @@ Transformer architecture for sequence modeling
 Vaswani et al., "Attention Is All You Need", NeurIPS 2017
 
 ## Content type
-Paper conclusion
+Paper conclusion / reusable method (self-attention mechanism)
 
 ## Core content
 The transformer replaces recurrence and convolution with pure self-attention, enabling full parallelization during training while maintaining or improving model quality.
@@ -16,7 +16,7 @@ The transformer replaces recurrence and convolution with pure self-attention, en
 - Training time reduction from days to hours on comparable hardware
 
 ## Applicable scope
-Sequence-to-sequence tasks with sufficient training data. Less suitable for very long sequences (memory O(n^2)) or low-data regimes without pre-training.
+Sequence-to-sequence tasks with sufficient training data. Less suitable for very long sequences (memory O(n²)) or low-data regimes without pre-training.
 
 ## Relation to user's research
 Directly applicable to my sequence modeling project. The parallelization benefit addresses my primary bottleneck (long training times).

@@ -37,21 +37,22 @@ cd my-research-project
 Create the required directories:
 
 ```bash
-mkdir -p papers/{inbox,sources/{pdf,markdown},extracted,metadata}
-mkdir -p notes/{papers,topics,learning,research}
-mkdir -p memory
+# Core directories
+mkdir -p papers/{inbox,sources,extracted,metadata}
+mkdir -p notes/{papers,topics,learning,research,writing}
+mkdir -p .claude/memory
 ```
 
 ### Step 4: Configure your user profile
 
-Copy the appropriate template from `examples/` to `memory/user_profile.md` and fill in your details:
+Copy the appropriate template from `examples/` to `.claude/memory/user_profile.md` and fill in your details:
 
 ```bash
 # For English
-cp examples/user_profile.template.en.md memory/user_profile.md
+cp examples/user_profile.template.en.md .claude/memory/user_profile.md
 
 # For Chinese
-cp examples/user_profile.template.zh.md memory/user_profile.md
+cp examples/user_profile.template.zh.md .claude/memory/user_profile.md
 ```
 
 At minimum, set:
@@ -77,4 +78,4 @@ cd ~/.claude/skills/claude-academic-skill
 git pull
 ```
 
-Your research data (`papers/`, `notes/`, `memory/`) is completely separate from the skill and will not be affected by updates.
+Your research data (`papers/`, `notes/`, `.claude/memory/`) is completely separate from the skill and will not be affected by updates.

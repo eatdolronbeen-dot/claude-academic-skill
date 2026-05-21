@@ -5,7 +5,7 @@
 - 年份：2017
 - 期刊/会议：NeurIPS
 - DOI / arXiv / URL：https://arxiv.org/abs/1706.03762
-- 本地文件：papers/sources/pdf/attention_is_all_you_need.pdf
+- 本地文件：papers/sources/attention_is_all_you_need.pdf
 - 阅读状态：reviewed
 
 ## 用户目标
@@ -37,7 +37,7 @@ RNN 序列模型训练慢，因为是顺序处理的。作者提问：能否在�
 - 模型很好地泛化到其他任务（后被 BERT、GPT 证实）。
 
 ## 局限与假设
-- 序列长度的二次复杂度（O(n^2) 注意力）。
+- 序列长度的二次复杂度（O(n²) 注意力）。
 - 需要大量训练数据。
 - 位置编码是固定的，非学习的（原始论文中）。
 
@@ -56,3 +56,5 @@ RNN 序列模型训练慢，因为是顺序处理的。作者提问：能否在�
 ## 有来源依据的笔记
 - "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks..." (Introduction)
 - "Transformer is the first transduction model based entirely on self-attention..." (Abstract)
+
+> **Note**: This paper contains a reusable methodological tool — the self-attention mechanism itself. Consider whether to extract it into the method toolbox (`notes/research/method_toolbox.md`) for future writing reference.

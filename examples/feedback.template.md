@@ -10,10 +10,14 @@ type: feedback
 
 ## Summary feedback
 
-## Teaching feedback
+## Teaching/Review feedback
 
 ## Workflow feedback
 
-## Guided review feedback
-
 ## Research repository feedback
+
+## Code verification feedback
+
+## Method extraction feedback
+
+## Writing feedback

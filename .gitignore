@@ -1,9 +1,11 @@
 # User research data — these should never be committed
+.claude/memory/
 memory/
 notes/papers/
 notes/learning/
 notes/topics/
 notes/research/
+notes/writing/
 papers/inbox/
 papers/sources/
 papers/extracted/

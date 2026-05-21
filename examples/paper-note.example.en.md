@@ -5,7 +5,7 @@
 - Year: 2017
 - Venue: NeurIPS
 - DOI / arXiv / URL: https://arxiv.org/abs/1706.03762
-- Local file: papers/sources/pdf/attention_is_all_you_need.pdf
+- Local file: papers/sources/attention_is_all_you_need.pdf
 - Reading status: reviewed
 
 ## User goal
@@ -37,7 +37,7 @@ RNN-based sequence models are slow to train because they process sequentially. T
 - The model generalizes well to other tasks (later confirmed by BERT, GPT).
 
 ## Limitations and assumptions
-- Quadratic complexity in sequence length (O(n^2) attention).
+- Quadratic complexity in sequence length (O(n²) attention).
 - Requires large amounts of training data.
 - Positional encoding is fixed, not learned (in the original paper).
 
@@ -56,3 +56,5 @@ Directly relevant to my sequence modeling project. The parallelization benefit i
 ## Source-grounded notes
 - "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks..." (Introduction)
 - "Transformer is the first transduction model based entirely on self-attention..." (Abstract)
+
+> **Note**: This paper contains a reusable methodological tool — the self-attention mechanism itself. Consider whether to extract it into the method toolbox (`notes/research/method_toolbox.md`) for future writing reference.
